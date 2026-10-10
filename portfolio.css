@@ -355,7 +355,13 @@ footer {
   .skill { padding: 14px 12px; font-size: 14px; text-align: center; }
   .footer { flex-direction: column; }
   .hero { grid-template-columns: 1fr; padding-top: 130px; }
-  .portrait { max-height: 80px; }
+  .portrait {
+  max-height: none;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  margin: 0 auto;
+            } 
   .scroll-text, .nav-links { display: none; }
   section { padding: 80px 7%; }
 }
